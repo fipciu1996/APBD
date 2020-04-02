@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -12,8 +13,6 @@ namespace WebApplication1.Controllers
     [Route("api/students")]
     public class StudentsController : ControllerBase
     {
-            using (var con = new SqlConnection("Data Source=localhost,1433;Initial Catalog=master;User ID=sa;Password=Mssql1234!"))
-            using (var com = new SqlCommand())
 
 
         [HttpGet]
@@ -23,9 +22,23 @@ namespace WebApplication1.Controllers
             return $"Kowalski, Malewski, Andrzejewski sortowanie = {orderBy}";
         }
 
+        [HttpPut("student/{id:int}")]
+        public IActionResult UpdateStudent(Student Student)
+        {
+            return Ok("Aktualizacja zakończona");
+        }
+
+        [HttpDelete("student/{id:int}")]
+        public IActionResult RemoveStudent()
+        {
+            return Ok("Usuwanie zakończone");
+        }
+
+
         [HttpPost]
         public IActionResult AddStudent(Student student)
         {
+            
             student.IndexNumber = $"s{new Random().Next(1, 20000)}";
             return Ok(student);
         }

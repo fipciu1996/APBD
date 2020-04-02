@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ja\\Desktop\\APBD\\APBD_14c\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\ja\\Desktop\\APBD\\APBD\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ja\\Desktop\\APBD\\APBD_14c\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\ja\\Desktop\\APBD\\APBD\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ja\\Desktop\\APBD\\APBD_14c\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\ja\\Desktop\\APBD\\APBD\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\ja\\Desktop\\APBD\\APBD_14c\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\ja\\Desktop\\APBD\\APBD\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\ja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ja\\Desktop\\APBD\\APBD_14c\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\ja\\Desktop\\APBD\\APBD\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [

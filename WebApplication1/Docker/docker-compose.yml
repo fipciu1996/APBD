@@ -1,7 +1,7 @@
 ﻿version: '2'
 services:
   mssql-server-linux:
-    image: microsoft/mssql-server-linux
+    image: fipciu1996/apbd:cw2
     environment:
         SA_PASSWORD: "Mssql1234!"
         ACCEPT_EULA: "Y"

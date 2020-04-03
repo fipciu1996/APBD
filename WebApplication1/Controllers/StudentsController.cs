@@ -46,7 +46,7 @@ namespace WebApplication1.Controllers
         public IActionResult GetStudentById([FromRoute] int id)
         {
             Student student = SelectStudentById(id);
-            if (!student.IdStudent.Equals(""))
+            if (student.IdStudent != 0)
             {
                 return Ok(student);
             } else

@@ -178,3 +178,13 @@ C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplica
 C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
 C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
 C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CopyComplete
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.pdb
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.dll
+C:\Users\ja\Desktop\APBD\APBD\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.pdb
